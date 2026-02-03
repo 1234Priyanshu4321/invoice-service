@@ -1,0 +1,4 @@
+Invoice Number,Date,Customer Name,Total Amount,Item Description,Item Quantity,Item Price,Item Total
+INV-101,2024-11-02,Beta Pvt Ltd,600,RAM,2,300,600
+INV-103,2024-11-06,Echo Pvt Ltd,800,Printer,1,800,800
+INV-103,2024-11-06,Echo Pvt Ltd,800,Cable,2,0,0

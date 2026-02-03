@@ -1,0 +1,4 @@
+Invoice Number,Date,Customer Name,Total Amount,Item Description,Item Quantity,Item Price,Item Total
+INV-100,2024-11-01,Alpha Pvt Ltd,900,Mouse,2,200,400
+INV-100,2024-11-01,Alpha Pvt Ltd,900,Keyboard,1,500,500
+INV-101,2024-11-02,Beta Pvt Ltd,300,Pen Drive,3,100,300

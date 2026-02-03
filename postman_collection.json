@@ -1,0 +1,33 @@
+{
+  "info": {
+    "_postman_id": "c0eefdaf-d365-4f01-9d20-a7ed9156d962",
+    "name": "Invoice Upload Service API",
+    "description": "Postman collection for testing the Invoice Upload and Validation Service. Use the /upload endpoint to submit CSV or Excel invoice files.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Upload Invoice File",
+      "request": {
+        "method": "POST",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:3000/upload",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["upload"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
